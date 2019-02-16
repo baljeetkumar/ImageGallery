@@ -24,7 +24,6 @@ var commentRoutes   = require("./routes/comment"),
  app.use(express.static(__dirname+ "/public"));
  app.use(methodOverride("_method"));
  app.use(flash());
- seedDB();
 
 
 //PASSPORT CONFIGURATION 
